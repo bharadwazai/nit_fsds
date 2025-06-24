@@ -34,3 +34,48 @@ fruit = ['cherry', 'pineapple', 'banana', 'apple', 'fig']
 print(fruit)
 fruit.sort()
 print(fruit)
+
+part=['kidney', 'liver', 'heart', '']
+
+l=[10,20,30,40,50]
+l1=l
+print(l1)
+
+l1.clear()
+print(l1)
+
+del(l1)
+print(l1)
+
+l=[10,20,30,40,-50]
+print(l.index(20))
+print(l)
+print(l.index(40))
+print(l.)
+
+l=[10,20,30,40,-50]
+print(l.insert(2, 15))
+
+
+l1=[1,2,3,4,5,6,7]
+print(l1)
+l2=[2,1,4,3,6,5,7]
+print(l2)
+
+l1.sort()
+print(l1)
+
+l2.sort()
+print(l2)
+
+l1=['a', 'b','Fz', 'd', 'Fa', '1', '#', 'A', 'Z', 'z']
+print(l1)
+print(sorted(l1))
+l2=['b', 'a', 'd', 'c', 'f']
+print(l2)
+print(sorted(l2))
+
+l=[[1,2,3], [4,5,6], [7,8,9]]
+print(l)
+print(l[0][-1])
+print(l[1][0])
