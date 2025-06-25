@@ -20,10 +20,10 @@ print(fruits)
 fruits.remove('banana')
 print(fruits)
 
-vegitable = ['vankai', 'bendakai', 'sorakai' ]
+vegetable = ['vankai', 'bendakai', 'sorakai' ]
 print(vegitable)
-vegitable.sort()
-print(vegitable)
+vegetable.sort()
+print(vegetable)
 
 king = ['d','c','b', 'a']
 print(king)
@@ -79,3 +79,83 @@ l=[[1,2,3], [4,5,6], [7,8,9]]
 print(l)
 print(l[0][-1])
 print(l[1][0])
+
+print(id(l))
+
+l=[1, 2, 3, 4, 5]
+print(l)
+print(100 in l)
+
+#Reverse and sort
+
+l1=[6, 1, 2, 3, 4, 5]
+l2=[6,7,8,9,10]
+print(l1)
+print(l2)
+
+l1.reverse()
+print(l1)
+
+l1.sort()
+print(l1)
+l1.count()
+print(l1)
+
+
+#all and any function
+l=[1, 2, 3, 4, []]
+print(all(l))
+print(any(l))
+
+#all and any function
+l=[1, 2, 3, 4, ()]
+print(all(l))
+print(any(l))
+
+#all and any function
+l=[1, 2, 3, 4, {}]
+print(all(l))
+print(any(l))
+
+#all and any function
+l=[1, 2, 3, 4, 0]
+print(all(l))
+print(any(l))
+
+#all and any function
+l=[1, 2, 3, 4, 0.0]
+print(all(l))
+print(any(l))
+
+#all and any function
+l=[1, 2, 3, 4, '']
+print(all(l))
+print(any(l))
+
+#all and any function
+l=[1, 2, 3, 4, None]
+print(all(l))
+print(any(l))
+
+#all and any function
+l=[1, 2, 3, 4, False]
+print(all(l))
+print(any(l))
+
+print(type("h"))
+
+l=[1, 'A', 1, (1+2j), 1 ]
+print(l)
+print(l.count(1))
+
+l=[1, 'A', 1, (1+2j), 1, 1 ]
+print(l)
+print(l.count(1))
+
+l=[1, 'A', 'A', 1, (1+2j), 1, 1 ]
+print(l)
+print(l.count('A'))
+
+l=[1, 'A', 'A', 1, (1+2j), 1, 1 ]
+print(l)
+print(l.count(1+2j))
